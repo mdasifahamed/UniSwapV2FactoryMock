@@ -8,7 +8,6 @@ async function getContract(contractAddress) {
   );
   return { contract };
 }
-// getContract();
 
 module.exports = {
   getContract,
